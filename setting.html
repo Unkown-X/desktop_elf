@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Setting</title>
+    </meta>
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, minimum-scale=1.0, maximum-scale=4.0">
+    </meta>
+
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            height: 100%;
+            background: transparent;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div style="padding:15px">
+        <h3>设置</h3>
+        <div style="margin-top: 8px">
+            <h4>选项一</h4>
+            <p>
+                打开类型:
+                <label>
+                    <span>网页</span>
+                    <input type="radio" name="one"  value="1">
+                    <span>文件夹</span>
+                    <input type="radio" name="one" value="2">
+                </label>
+            </p>
+            <span>简称:</span><input style="width:30px" type="text" maxlength="1" value="" id="oneName">
+            <span>路径:</span> <input style="width:200px" type="text" value="" id="onePath">
+        </div>
+        <div style="margin-top: 8px">
+            <h4>选项二</h4>
+            <p>
+                打开类型:
+                <label>
+                    <span>网页</span>
+                    <input type="radio" name="two" value="1">
+                    <span>文件夹</span>
+                    <input type="radio" name="two"  value="2">
+                </label>
+            </p>
+            <span>简称:</span><input style="width:30px" type="text" maxlength="1" value="" id="twoName">
+            <span>路径:</span> <input style="width:200px" type="text" value="" id="twoPath">
+        </div>
+        <div style="margin-top: 8px">
+            <h4>选项三</h4>
+            <p>
+                打开类型:
+                <label>
+                    <span>网页</span>
+                    <input type="radio" name="three" value="1">
+                    <span>文件夹</span>
+                    <input type="radio" name="three"  value="2">
+                </label>
+            </p>
+            <span>简称:</span><input style="width:30px" type="text" maxlength="1" value="" id="threeName">
+            <span>路径:</span> <input style="width:200px" type="text" value="" id="threePath">
+        </div>
+        <div style="margin-top: 8px">
+            <button id="apply" style="float: right;width: 50px;height: 20px;font-size:14px;line-height: 20px; border: none;border-radius: 5px;color: #ffffff;background: #3498db;margin-right:15px">应用</button>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    
+    <script src="./renderer.js"></script>
+
+
+</body>
+
+</html>

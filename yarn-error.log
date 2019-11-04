@@ -1,0 +1,66 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add electron-builder --save-dev
+
+PATH: 
+  C:\Program Files\nodejs\;D:\Program Files\Java\jdk1.8.0_181\bin;D:\Program Files\Java\jdk1.8.0_181\jre\bin;D:\Program Files\Git\bin;C:\Users\Lenovo\.app\;d:\Ruby26-x64\bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Program Files\nodejs\node_global\;D:\软件\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Users\Lenovo\AppData\Local\Android\Sdk;C:\windows\system32;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/app-builder-bin/-/app-builder-bin-3.4.3.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:162:17)
+
+npm manifest: 
+  {
+    "name": "electron-quick-start",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "build": {
+      "appId": "com.desktop_elf.app",
+      "copyright":"Unkown-X",
+      "productName":"desktop_elf",
+      "mac": {
+        "target": [
+          "dmg",
+          "zip"
+        ]
+      },
+      "win": {
+        "target": [
+          "nsis",
+          "zip"
+        ]
+      }
+    },
+    "scripts": {
+      "start": "electron .",
+      "pack": "electron-builder --win --x64"
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^6.0.10"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
