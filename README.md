@@ -4,13 +4,13 @@
 
 使用electron框架+live2D做一个桌面精灵，实现打开网页，打开文件夹，移动模型，更换模型和修改设置的简单功能。模型有：22娘、33娘、狗
 
-![](F:\learn\desktop_elf\01.png)
+![](https://github.com/Unkown-X/desktop_elf/blob/master/01.png)
 
-![02](F:\learn\desktop_elf\02.png)
+![02](https://github.com/Unkown-X/desktop_elf/blob/master/02.png)
 
-![03](F:\learn\desktop_elf\03.png)
+![03](https://github.com/Unkown-X/desktop_elf/blob/master/03.png)
 
-![04](F:\learn\desktop_elf\04.png)
+![04](https://github.com/Unkown-X/desktop_elf/blob/master/04.png)
 
 ## 使用
 
